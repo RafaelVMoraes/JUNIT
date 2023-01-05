@@ -27,6 +27,7 @@ class VectorsTest {
         System.out.println("equal");
         assertTrue(Vectors.equal(new int[] {}, new int[] {}));
         assertTrue(Vectors.equal(new int[] {0}, new int[] {0}));
+        assertTrue(Vectors.equal(new int[] {1}, new int[] {1}));
         assertTrue(Vectors.equal(new int[] {0, 0}, new int[] {0, 0}));
         assertTrue(Vectors.equal(new int[] {0, 0, 0}, new int[] {0, 0, 0}));
         assertTrue(Vectors.equal(new int[] {5, 6, 7}, new int[] {5, 6, 7}));
